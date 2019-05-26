@@ -6,8 +6,22 @@
     <SharedGUID>3109bca5-b2a5-479c-bb87-b3a90f20ab47</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Markdown_Utilities.Net</Import_RootNamespace>
+    <Import_RootNamespace>DaanV2.Markdown</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Markdown Document\Markdown Document - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Markdown Document\Markdown Document - Properties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\Markdown Document\Markdown Document - Variables.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enumerators\Markdown Section Identifier\Markdown Section Identifier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ISection\ISection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Classes\Markdown Document Deserializer\Markdown Document Deserializer - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Classes\Markdown Document Deserializer\Markdown Document Deserializer - Properties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Classes\Markdown Document Deserializer\Markdown Document Deserializer - Serialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Classes\Markdown Document Serializer\Markdown Document Serializer - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Classes\Markdown Document Serializer\Markdown Document Serializer - Properties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Serialization\Classes\Markdown Document Serializer\Markdown Document Serializer - Variables.cs" />
   </ItemGroup>
 </Project>
